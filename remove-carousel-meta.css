@@ -1,0 +1,14 @@
+/* Removes Jetpack Carousel comments and meta from all pages on the site */
+
+body.page .jp-carousel-info .jp-carousel-image-meta {
+	display: none;
+}
+
+body.page .jp-carousel-info .jp-carousel-left-column-wrapper #jp-carousel-comment-form-container,
+body.page .jp-carousel-info .jp-carousel-left-column-wrapper #jp-carousel-comments-loading {
+	display: none !important;
+}
+
+body.page .jp-carousel-info .jp-carousel-left-column-wrapper {
+	width: inherit !important;
+}
